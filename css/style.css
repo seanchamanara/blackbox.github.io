@@ -1,0 +1,763 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: #6c6f73;
+}
+h1, h2, h3, h4, h5 {
+	color: #333;
+}
+h6 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+
+
+
+.nav-item {
+
+	padding-left: 9rem;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	padding-left: 1rem;
+}
+
+#stage-caption > .display-4 {
+
+	text-transform: lowercase;
+/*	max-width: 50rem;
+	padding-left: 3rem;*/
+	color: black;
+	opacity: 0.7;
+}
+
+
+
+
+#stage{
+/*	background: url('../img/nightLightsChain.jpg') center center no-repeat;*/
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	
+}
+
+
+.fullscreen-bg__video {
+	  position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+
+
+}
+
+
+.smallVideos {
+	  width: 100%;
+    height: auto;
+}
+
+
+.mainTextCenter {
+	padding: 4.5rem 1rem 1rem 1rem;
+	font-weight: 200;
+	font-size: 1.2rem;
+
+}
+
+
+
+
+
+#workHeading {
+	padding: 4.5rem 0 1rem 2rem;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+
+.walter {
+	padding-top: 1rem;
+	width: 100%;
+  height: auto;
+
+}
+
+.smallHeading {
+	padding: 2rem 2rem 1rem 2rem;
+	font-size: 2rem;
+}
+
+.walterText {
+	padding: 1rem 2rem 4rem 2rem;
+	font-size: 1.2rem;
+	font-weight: 200;
+}
+
+.blueBar {
+	background-color: lightblue;
+
+	height: 15px;
+	width: 100%;
+	padding-bottom: 4rem;
+}
+
+.blueBar>h3 {
+	font-size: 2.5rem;
+	font-weight: 300;
+	padding-left: 2rem;
+	padding-top: 1rem;
+}
+
+
+
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+
+
+@media (min-width: 320px) {
+		#stage-caption > .display-4 {
+			padding-top: 7rem;
+			font-size: 2.6rem;
+			padding-left: 5rem;
+			padding-right: 40rem;
+			
+		}
+
+/*			#philosophy {
+			padding-top: 3rem;
+		}*/
+		
+	
+			.blueBar>h3 {
+			
+				font-size: 1.5rem;
+
+		}
+}
+
+
+
+
+
+@media (min-width: 576px) {
+		#stage-caption > .display-4 {
+			padding-top: 10rem;
+			font-size: 2.6rem;
+			padding-left: 10rem;
+			padding-right: 40rem;
+			
+		}
+
+/*		#philosophy {
+			padding-top: 4rem;
+		}*/
+		
+	
+			.blueBar>h3 {
+			
+				font-size: 1.5rem;
+
+		}
+}
+
+@media (min-width: 768px) {
+			#stage-caption > .display-4 {
+			padding-top: 10rem;
+			font-size: 3rem;
+			padding-right: 40rem;
+			padding-left: 10rem;
+
+		}
+
+/*		#philosophy {
+			padding-top: 5rem;
+		}*/
+
+			.blueBar>h3 {
+			font-size: 2rem;
+		}
+}
+
+
+
+
+
+
+@media (min-width: 992px)  {
+		#stage-caption > .display-4 {
+			font-size: 3.5rem;
+			padding-top: 10rem;
+			padding-right: 50rem;
+			padding-left: 15rem;
+		}
+
+/*		#philosophy {
+			padding-top: 3rem;
+		}*/
+
+		.blueBar>h3 {
+			font-size: 2rem;
+		}
+}
+
+@media (min-width: 1200px) {
+
+ 	 .nav-item {
+		padding-left: 12rem;
+	}
+	
+		#stage-caption > .display-4 {
+			font-size: 4rem;
+			padding-top: 10rem;
+			padding-right: 70rem;
+			padding-left: 20rem;
+		}
+
+		#philosophy {
+			padding-top: 5rem;
+		}
+
+		.blueBar>h3 {
+			font-size: 2rem;
+		}
+}
+
+
+
+
+
+/*
+MEDIA QUERIES*/
+/*@media only screen and (min-width : 320px) {
+		#stage-caption > .display-4 {
+			font-size: 2rem;
+			padding-top: 3rem;
+			padding-right: 28rem;
+			padding-left: 2rem;
+
+		}
+
+		#titleWork {
+		font-size: 2rem;
+		}
+		.blueBar>h3 {
+			font-size: 1.3rem;
+
+		}
+ }
+
+@media only screen and (min-width : 480px) {
+		#stage-caption > .display-4 {
+
+			font-size: 2.3rem;
+			padding-left: 10rem;
+			padding-right: 40rem;
+			
+		}
+		
+		}
+			.blueBar>h3 {
+			
+				font-size: 1.5rem;
+
+		}
+
+
+ }
+
+
+ @media only screen and (min-width : 768px) {
+		#stage-caption > .display-4 {
+			font-size: 4rem;
+			padding-right: 40rem;
+			padding-left: 20rem;
+			color: red;
+
+		}
+			.blueBar>h3 {
+			font-size: 2rem;
+		}
+ }
+
+ @media only screen and (min-width : 992px) {
+		#stage-caption > .display-4 {
+			font-size: 3.5rem;
+			padding-top: 10rem;
+			padding-right: 50rem;
+			padding-left: 20rem;
+		}
+		.blueBar>h3 {
+			font-size: 2rem;
+		}
+ }
+
+ @media only screen and (min-width : 1200px) {
+
+ 	.nav-item {
+
+		padding-left: 12rem;
+	}
+	.
+		#stage-caption > .display-4 {
+			font-size: 5rem;
+			padding-top: 10rem;
+			padding-right: 70rem;
+			padding-left: 20rem;
+		}
+		.blueBar>h3 {
+			font-size: 2rem;
+		}
+ }*/
+
+
+
+/*WORK VIDEOS*/
+.workVideos {
+	padding-bottom: 2rem;
+}
+
+.workVideos>h4{
+	padding: 1rem 0 1rem 1rem;
+	background-color: lightblue;
+	font-weight: 300;
+}
+
+.workVideos> p {
+	font-size: 1rem;
+	font-weight: 200;
+	padding: 1rem 2rem;
+
+}
+.vidButton{
+	margin-left: 2rem;
+
+}
+
+/*WORK VIDEOS END*/
+
+
+
+
+
+
+
+/*SERVICES*/
+
+#servicesHeading {
+
+	padding: 4.5rem 0 1rem 2rem;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+#services {
+	padding: 2rem 0 1.5rem 0;
+	text-align: center;
+
+}
+
+.serviceBar {
+	height: 3rem;
+	width: 100%;
+	background-color: lightblue;
+}
+
+.serviceItem {
+
+
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+.serviceItem img{
+	height: 100px;
+}
+
+.serviceTitle {
+	padding-bottom: 1rem;
+	font-weight: 350;
+	font-size: 1.5rem;
+}
+
+
+.serviceItemText {
+	font-size: 1rem;
+	padding-top: 2rem;
+	font-weight: 300;
+}
+
+/*SERVICES END*/
+
+
+
+
+
+
+/*TESTIMONIALS*/
+
+.testImage {
+	padding-top: 2rem;
+	background-image: url("../img/BWcityShort2sm.jpg");
+
+	height: 100%;
+	width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quoteText {
+
+	font-weight: 200;
+	font-size: 1.5rem;
+	color: #333;
+	border: none;
+/*	padding: 5rem 5rem 0 4rem;*/
+}
+
+.client {
+	font-size: 1.7rem;
+	margin: 1rem 1rem 0 5rem;
+
+}
+
+.company {
+	font-weight: 100;
+	font-size: 1.7rem;
+	margin: 1rem 5rem 0 0;
+}
+
+
+
+/*TESTIMONIALS END */
+
+
+
+
+
+
+
+/* TESTIMONIALS MEDIA QUERIES*/
+@media (min-width: 320px) {
+	  .testImage {
+			padding-top: 1rem;
+		}
+
+		.quoteText {
+			margin-top: 2rem;
+			font-size: 1.1rem;
+			padding: 2rem;
+		}
+
+/*		.clientCompany {
+			text-align: center;
+		}*/
+
+		.client, .company {
+			font-size: 1rem;
+
+
+		}
+ }
+
+@media (min-width: 576px) {
+
+	  .testImage {
+			padding-top: 1rem;
+		}
+
+		.quoteText {
+			margin-top: 2rem;
+			font-size: 1.3rem;
+			padding: 2rem;
+		}
+
+		.clientCompany {
+			margin-left: -3rem;
+		}
+
+		.client, .company {
+			font-size: 1.2rem;
+
+
+		}
+
+}
+
+
+@media (min-width: 768px) {
+
+ 		.testImage {
+			padding-top: 2rem;
+		}
+
+		.quoteText {
+
+			font-size: 1.5rem;
+			padding: 1rem 4rem;
+		}
+
+		.clientCompany {
+			margin-left: -1rem;
+		}
+
+		.client, .company {
+			font-size: 1.5rem;
+
+
+		}
+ }
+
+@media (min-width: 992px) {
+
+ 		.testImage {
+			padding-top: 2rem;
+		}
+
+		.quoteText {
+	
+			font-size: 1.5rem;
+			padding: 1rem 5rem;
+		}
+
+		.clientCompany {
+			margin-left: .4rem;
+		}
+
+		.client, .company {
+			font-size: 1.8rem;
+
+		}
+ }
+
+@media (min-width: 1200px) {
+
+  	.testImage {
+			padding-top: 2rem;
+		}
+
+		.quoteText {
+	
+			font-size: 1.6rem;
+			padding: 1rem 6rem;
+		}
+
+		.clientCompany {
+			margin-left: 1rem;
+		}
+
+		.client, .company {
+			font-size: 1.8rem;
+
+		}
+ }
+/* TESTIMONIALS MEDIA QUERIES END*/
+
+
+
+
+
+
+
+/*LOGOS*/
+#logos {
+	padding: 5rem 0 1.5rem 0;
+	text-align: center;
+}
+
+.logoItem {
+	padding: 1rem 0;
+}
+
+/*LOGOS END*/
+
+
+
+/*TEAM MEMBERS*/
+
+#teamHeading {
+	padding: 4.5rem 0 1rem 2rem;
+	font-weight: 400;
+	font-size: 3rem;
+}
+#team {
+	/*CENTERING*/
+	padding: 2rem 0 2rem 0;
+	text-align: center;
+
+	background-color: lightblue;
+}
+
+.teamMembersVideo {
+	width: 150px;
+	height: 150px;
+}
+
+
+.teamMember> h5  {
+	font-size: 1.1rem;
+	font-weight: 500;
+	padding-top: 1rem;
+}
+
+.teamMember {
+		font-size: 1rem;
+	font-weight: 300;
+	padding-top: 2rem;
+}
+
+/*TEAM MEMBERS END*/
+
+
+/*PARALLAX FOR CONTACT FORM*/
+.parallax { 
+		padding-top: 2rem;
+	  padding-bottom: 2rem;
+    /* The image used */
+    background-image: url("../img/ridershand.jpg");
+
+
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+/*PARALLAX FOR CONTACT FORM END*/
+
+
+/*CONTACT FORM*/
+
+
+
+
+
+#contactTagline {
+	padding: 4.5rem 0 1rem 2rem;
+	font-weight: 400;
+	font-size: 3rem;
+/*	padding-bottom: 1rem;
+	padding-left: 5rem;*/
+}
+
+
+.form-control {
+	background-color: rgba(255, 255, 255, 0.5);
+
+
+
+}
+
+.form-group {
+	color: black;
+}
+
+.sendButton {
+	padding-top: 1rem;
+}
+
+/*CONTACT FORM END*/
+
+
+
+
+
+
+
+
+.copyrightInfo {
+	font-size: 1.2rem;
+	font-weight: 300;
+
+}
+
+.social {
+
+}
+
+.socialItem {
+	color: white;
+	padding-left: 3rem;
+}
+
+
+
+
+/*FOOTER SIMPLE*/
+#main-footer {
+	background: #262F36;
+	color: white;
+	padding: 2rem 0 1rem 0;
+	font-size: 0.8rem;
+}
+
+#main-footer h4 {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+#main-footer a {
+	color: #6c6f73;
+}
+
+
+
+
+/*FOOTER*/
+/*#main-footer {
+	background: #262F36;
+	color: white;
+	padding: 6rem 0;
+	font-size: 0.8rem;
+}
+
+#main-footer h6 {
+	color: #718FA9;
+}
+
+#main-footer a {
+	color: #6c6f73;
+}*/
+
+
+
